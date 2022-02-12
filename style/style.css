@@ -1,0 +1,6198 @@
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    
+    margin: 0;
+    background-color:#292929 ;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+}
+section{
+    background-image: url(../style/Footbal_Men_Two_Legs_492484_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 30px 5px rgb(179, 177, 177);
+    
+}
+#titulo2 h1{
+    display: none;
+}
+#placar{
+    display: none;
+}
+
+
+a{
+   color: white;
+   text-decoration: white;
+   transition: 0.3s;
+}
+a:hover, #img1:hover,#img2:hover,#img3:hover,#img4:hover,#img5:hover, button:hover{
+    
+    cursor: pointer;
+    
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+
+    
+}
+.logo:hover{
+   
+
+    }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    background:transparent;
+    height: 9vh;
+    justify-content: space-between;
+    
+}
+li{
+    padding: 20px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+transition: all 0.3s;
+}
+li:hover{
+box-shadow: 0px 0px 0px 1px white;
+transform: translate(-20px);
+}
+
+
+
+#nav-list {
+    letter-spacing: 3px;
+    margin-left: 22px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+
+}
+header #img1{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 5px;
+}
+header #img2{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img3{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img4{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+header #img5{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1px;
+}
+header{
+    width: 87%;
+    height: 30px;
+    background-color:transparent;
+    float: right;
+}
+menu{
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    width: 86.2%;
+    height: 60px;
+    float: right;
+    margin: 0;
+    z-index: 2000;
+}
+#hora2{
+    color: white;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    display: none;
+}
+
+footer{
+    width: 13.8%;
+    height: 70px;
+    background:radial-gradient(transparent,rgb(58, 57, 57) ) ;
+    float: left;
+    margin-top:-100px;
+    border-radius: 0px 0px 0px 0px;
+    
+}
+footer img{
+  width: 100%;
+  height: 170px;
+  border-radius: 0px 40px 0px 0px;
+  text-align: center;
+  margin-top: -40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+
+}
+main img{
+    width: 100px;
+    height: 100px;
+}
+main{
+    width: 75%;
+    height: 1300px;
+    margin-top: -21px;
+    margin: 5% 12.5% ;
+    align-items: center;
+}
+
+#butaotopo h1{
+    float: left;
+    width: 0px;
+    height: 0px;
+    color: #333;
+    position: fixed;
+    background-color: violet;
+    margin: 50px;
+    font-size: 60px;
+    border-radius: 100px 100px 50px 0px;
+}
+#butaotopo h1:hover{
+    transition: all 0.3s;
+    color: tomato;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px white;
+    transition: all 0.3s;
+     transform: translate(10px);
+}
+
+
+#Noticia{
+    margin-top: 50px;
+    
+}
+#Noticia h3{
+    text-align: left;
+    padding: 0px;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    background:transparent;
+    font-size: 40px;
+    color: white;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+}
+#Noticia p{
+    text-align: left;
+    padding: 0px;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+    background:transparent;
+    margin-top: 0px;
+}
+
+#Noticia img{
+    width: 100%;
+   height: 350px;
+   margin-top: 0px;
+   border-radius: 5px;
+}
+#Noticia h1{
+    float: left;
+    margin-top: 0px;
+    font-size: 31px;
+}
+#dc h1{
+   margin-top: 20px;
+}
+#dc img{
+    border-radius: 14px;
+}
+#dc{
+   background-color:#333 ;
+   height: 560px;
+   width: 58%;
+   margin-top: 50px;
+   border-radius: 10px;
+   transition: 0.3s all;
+   cursor: pointer;
+   transform: translate(0px);
+}
+#dc:hover{
+    box-shadow: 0px 0px 0px 0.5px tomato;
+    transform: translate(-20px);
+}
+.logo2 img{
+    display: none;
+}
+
+#copinha img{
+    width: 100%;
+    height: 200px;
+    float: right;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 14px;
+
+}
+#copinha{
+    width: 40%;
+    background-color:#333;
+    float: right;
+    margin-top: -560px;
+    border-radius: 10px;
+    height: 255px;
+    cursor: pointer;
+    transform: translate(0px);
+    transition: 0.3s all;
+}
+#copinha:hover{
+    box-shadow: 0px 0px 0px 0.5px tomato;
+    transform: translate(20px);
+}
+#copinha h4{
+    margin-top: 210px;
+}
+#coutinho{
+    width: 40%;
+    height: 284px;
+    float: right;
+    margin-top: -285px;
+    background-color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(0px);
+    transition: 0.3s all;
+}
+#coutinho img{
+    height: 220px;
+    border-radius: 14px;
+}
+#coutinho h4{
+    margin-top: 10px;  
+}
+#coutinho:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+
+#cruzeiro{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 330px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#cruzeiro:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+
+#cruzeiro img{
+    float: left;
+    width: 100%;
+    height: 270px;
+    border-radius: 14px;
+}
+#cruzeiro h4{
+     margin-top: 280px;
+}
+#lukaku{
+    float: right;
+    width: 47.8%;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 330px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#lukaku:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+
+#lukaku img{
+    float: left;
+    width: 100%;
+    height: 270px;
+    border-radius: 14px;
+}
+#lukaku h4{
+     margin-top: 280px;
+}
+#fla{
+    float: left;
+    width: 31.5%;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 270px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#fla:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-10px);
+}
+
+#fla img{
+    float: left;
+    width: 100%;
+    height: 210px;
+    border-radius: 14px;
+}
+#fla h4{
+     margin-top: 220px;
+}
+#futebol-na-tv{
+    float: left;
+    width: 31.5%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:#333;
+    border-radius: 10px;
+    height: 270px;
+    align-items: center;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#futebol-na-tv:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(10px);
+}
+
+#futebol-na-tv img{
+    float: left;
+    width: 100%;
+    height: 210px;
+    border-radius: 14px;
+}
+#futebol-na-tv h4{
+     margin-top: 220px;
+}
+#salah{
+    float: right;
+    width: 31.5%;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    height: 270px;
+    align-items: center;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#salah:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-10px);
+}
+
+#salah img{
+    float: left;
+    width: 100%;
+    height: 210px;
+    border-radius: 13px;
+}
+#salah h4{
+     margin-top: 220px;
+}
+#mais{
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 15.5px;
+    box-shadow: 0px 0px 1px 1px rgb(252, 93, 2);
+    float: right;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#mais:hover{
+box-shadow: 0px 0px 0px 0.5px white;
+transform: translate(-20px);
+}
+
+#mais h5{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+hgroup{
+    width: 75%;
+    height: 1300px;
+    margin-top: -21px;
+    margin: 5% 12.5% ;
+    align-items: center;
+    
+}
+
+#video h3{
+    font-size: 40px;
+    color: white;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+    margin-top: 83px
+}
+
+#uniformes{
+    width: 49%;
+    margin-top: 50px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: left;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#uniformes:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+
+#uniformes h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#uniformes iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#lodi{
+    width: 49%;
+    margin-top: 50px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: right;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#lodi:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+
+#lodi h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#lodi iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#psg{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: left;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#psg:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+
+#psg h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#psg iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#melhor-do-mundo{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: right;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#melhor-do-mundo:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+
+#melhor-do-mundo h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#melhor-do-mundo iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#timao{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: right;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#timao:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+
+#timao h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#timao iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#selecao{
+    width: 49%;
+    margin-top: 20px;
+    background-color: #333;
+    height: 380px;
+    border-radius: 10px;
+    float: left;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#selecao:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+
+#selecao h4{
+    margin-top: 10px;
+    color: white;
+}
+
+#selecao iframe{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+#mais2{
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 15.5px;
+    box-shadow: 0px 0px 1px 1px rgb(252, 93, 2);
+    float: right;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#mais2:hover{
+box-shadow: 0px 0px 0px 0.5px white;
+transform: translate(-20px);
+}
+
+#mais2 h4{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+legend{
+    width: 75%;
+    height: 1100px;
+    margin-top: -21px;
+    margin: 5% 12.5% ;
+    align-items: center;
+
+}
+#mercado-da-bola{
+    font-size: 40px;
+    color: white;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+    margin-top: 60px;
+}
+#rafael h4{
+    margin-top: 10px;
+}
+#rafael{
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 66%;
+    height: 590px;
+    background-color: #333;
+    float: left;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#rafael:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+
+#rafael img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+#leila{
+    margin-top: 50px;
+    width: 31.8%;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#leila:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+#leila img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#leila h4{
+    font-size: 20px;
+}
+#gremio{
+    margin-top: 20px;
+    width: 31.8%;
+    height: 270px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#gremio:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+
+#gremio img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#gremio h4{
+    font-size: 20px;
+}
+#devid{
+    margin-top: 20px;
+    width: 31.8%;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#devid:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-10px);
+}
+
+#devid img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#devid h4{
+    font-size: 20px;
+}
+#michael{
+    margin-top: 20px;
+    width: 31.8%;
+    height: 300px;
+    float: right;
+    border-radius: 10px;
+    background-color: #333;
+    margin-right: 20px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#michael:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-10px);
+}
+#michael img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#michael h4{
+    font-size: 20px;
+}
+#matias-vencino{
+    margin-top: 20px;
+    width: 31%;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    background-color: #333;
+    margin-right: 20px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#matias-vencino:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-10px);
+}
+
+#matias-vencino img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#matias-vencino h4{
+    font-size: 20px;
+}
+#mais3{
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 15.5px;
+    box-shadow: 0px 0px 1px 1px rgb(252, 93, 2);
+    float: right;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#mais3:hover{
+box-shadow: 0px 0px 0px 0.5px white;
+transform: translate(-20px);
+}
+
+#mais3 h4{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+summary{
+    width: 75%;
+    height: 1250px;
+    margin-top: -51px;
+    margin: 5% 12.5% ;
+    align-items: center;
+}
+#jogo h3{
+    font-size: 40px;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+    color: white;
+    margin-top: -60PX;
+}
+#blue{
+    width: 60%;
+    height: 340px;
+    margin-top: 50px;
+    background-color: #333;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#blue:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+#blue img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+#united{
+    width: 60%;
+    height: 340px;
+    margin-top: 20px;
+    background-color: #333;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#united:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+#united img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+#atalanta{
+    width: 37.5%;
+    height: 340px;
+    margin-top: 50px;
+    background-color: #333;
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 0px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#atalanta:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+#atalanta img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+#juve{
+    width: 60%;
+    height: 340px;
+    margin-top: 20px;
+    background-color: #333;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#juve:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(-20px);
+}
+
+#juve img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+#real-barca{
+    width: 37.5%;
+    height: 340px;
+    margin-top: 20px;
+    background-color: #333;
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 0px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#real-barca:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+
+#real-barca img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+#espn{
+    width: 37.5%;
+    height: 340px;
+    margin-top: 20px;
+    background-color: #333;
+    float: right;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 0px;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#espn:hover{
+box-shadow: 0px 0px 0px 0.5px tomato;
+transform: translate(20px);
+}
+#espn img{
+    width: 100%;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+#mais4{
+    width: 180px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 15.5px;
+    box-shadow: 0px 0px 1px 1px rgb(252, 93, 2);
+    float: right;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+#mais4:hover{
+box-shadow: 0px 0px 0px 0.5px white;
+transform: translate(-20px);
+}
+
+#mais4 h4{
+    align-items: center;
+    text-align: center;
+    margin-top: 10px; 
+}
+address{
+        width: 75%;
+        height: 1380px;
+        margin-top: -21px;
+        margin: 5% 12.5% ;
+        align-items: center;
+        margin-top: -60px;
+        
+}
+
+#resultado h3 {
+    font-size: 40px;
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+    box-shadow: 0px 0px 2px white;
+    color: white;
+}
+#modalExemplo{
+    width: 0;
+}
+
+input{
+    height: 60px;
+    width: 25px;
+    display: block;
+    background: rgb(179, 177, 177);
+}
+.modal .fecharModal #exit{
+  cursor: pointer;
+}
+
+#modalExemplo:checked + .modal
+{
+  display: block;
+}
+.modal h4{
+    background-color: tomato;
+    height: 40px;
+    padding: 10px;
+    margin-top: -13px;
+
+}
+.modal #exit{
+    margin: 0px;
+    background-color: tomato;
+    float: right;
+    width: 13px;
+    padding: 1px;
+    color: black;
+}
+
+.modal{
+    width: 45%;
+    height: 406px;
+    background-color: #333;
+    display: none;
+    border-radius: 5px 5px 2px 2px;
+    margin: 5px;
+    position: absolute;
+    overflow: scroll;
+    margin-top: -77px;
+}
+#imgjogos{
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-top: -25px;
+}
+
+
+modal{
+    margin-top: -32px;
+    height: 30px;
+    float: right;
+    margin-right: -23px;background-color: brown;
+    cursor: pointer;
+}
+.abrirModal h1{
+    color: white;
+    width:50%;
+    padding: 30px;
+    height: 100px;
+    padding-top: 60PX;
+    margin-left: -10px;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-family: sistem-uni, -apple-system, helvetica, Arial, Helvetica, sans-serif;
+}
+.abrirModal h1:hover{
+    transition: all 0.3s;
+    color:tomato;
+}
+
+
+#modalExemplo2:checked + .modal2
+{
+  display: block;
+}
+.modal2 h4{
+    background-color: tomato;
+    height: 40px;
+    padding: 10px;
+    margin-top: -13px;
+    display: block;
+}
+.modal2 #exit{
+    margin: 0px;
+    background-color: tomato;
+    float: right;
+    width: 13px;
+    padding: 1px;
+    color: black;
+}
+
+.modal2{
+    width: 100%;
+    display: none;
+    border-radius: 5px 5px 2px 2px;
+}
+modal{
+    margin-top: -32px;
+    height: 30px;
+    float: right;
+    margin-right: -23px;background-color: brown;
+    cursor: pointer;
+}
+.abrirModal2 h4{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 1px;
+    height: 40px;
+
+}
+#conteudomodal2{
+    width: 100%;
+    height: 30px;
+}
+.conteudomodal2 p{
+    width: 100%;
+    margin-top: -68px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subtitulo{
+    margin: 7px;
+}
+-container{
+    margin-top: 50px;
+    width: 65%;
+    height: 40px;
+    background-color:white ;
+    height: 60vh;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+}
+#bg{
+    width: 65%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: aqua;
+}
+
+
+
+.x{
+  float: right;
+  margin-top: 40px;
+  background-color: brown;
+  cursor: pointer;
+}
+
+.modal-container .mostrar{
+    display: flex;
+}
+.abrir{
+    margin-top: 30px;
+}
+
+
+#jogo1{
+    margin-top: 13px;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 1px 0px 0px white;
+}
+#hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+}
+#hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+  
+
+}
+#placa{
+    margin-top: -15px;
+    width: 65%;
+    display: flex;
+    margin-left: 60px;
+    float: left;
+
+}
+#foto1{
+   margin-left: px;
+   width: 40px;
+}
+#foto2{
+    margin-left: 5px;
+    width: 40px;
+ }
+#placa p{
+    margin: 5px;
+    margin-top: 10px;
+    color: white;
+}
+b{
+    color: white;
+}
+
+
+#segundo-jogo{
+    margin-top: 6px;
+   width: 100%;
+   height: 70px;
+   box-shadow: 0px 1px 0px 0px white;
+
+}
+#segundo-hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+}
+#segundo-hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+
+}
+
+
+#segundo-hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+
+}
+#segundo-jogo b{
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+#segundo-hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+  margin-top: -15px;
+
+}
+#segundo-placa{
+    margin-top: -35px;
+    width:60%;
+    display: flex;
+    margin-left: 160px;
+    float: left;
+
+}
+#segundo-foto1{
+   margin-left: 5px;
+   width: 40px;
+}
+#segundo-foto2{
+    margin-left: 10px;
+    width: 40px;
+ }
+#segundo-placa p{
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+}
+#resultado b{
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+
+
+#terceiro-jogo{
+    margin-top: 8px;
+   width: 100%;
+   height: 70px;
+   box-shadow: 0px 1px 0px 0px white;
+   text-align: center;
+
+}
+#terceiro-hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+}
+#terceiro-hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+}
+
+
+#terceiro-hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+}
+#terceiro-hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+  margin-top: -15px;
+}
+#terceiro-placa{
+    margin-top: -15px;
+    width: 50%;
+    display: flex;
+    margin-left: 150px;
+    float: left;
+
+}
+#terceiro-foto1{
+   margin-left: -2px;
+   width: 40px;
+}
+#terceiro-foto2{
+    margin-left: 10px;
+    width: 40px;
+ }
+#terceiro-placa p{
+    margin: 5px;
+    margin-top: 10px;
+    color: white;
+    margin-left: -55px;
+}
+#terceiro b{
+    margin-top: 12px;
+    margin-left: 3px;
+}
+#terceiro-placa b{
+    margin-top: 15px;
+    margin-left: 7px;
+}
+#terceiro-placa #p2{
+    margin-left: 5px;
+}
+
+
+
+#quarto-jogo{
+    margin-top: 8px;
+   width: 100%;
+   height: 70px;
+   box-shadow: 0px 1px 0px 0px white;
+
+}
+#quarto-hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+}
+#quarto-hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+}
+
+
+#quarto-hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+}
+#quarto-hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+  margin-top: -15px;
+}
+#quarto-placa{
+    margin-top: -15px;
+    width: 70%;
+    display: flex;
+    margin-left: 78px;
+    float: left;
+}
+#quarto-foto1{
+   margin-left: 5px;
+   width: 40px;
+}
+#quarto-foto2{
+    margin-left: 10px;
+    width: 40px;
+ }
+#quarto-placa p{
+    margin: 5px;
+    margin-top: 10px;
+    color: white;
+    margin-left: -60px;
+}
+#quarto b{
+    margin-top: 12px;
+    margin-left: 3px;
+}
+#quarto-placa b{
+    margin-top: 12px;
+    margin-left: 7px;
+}
+#quarto-placa #p2{
+    margin-left: 5px;
+}
+
+
+
+#quinto-jogo{
+    margin-top: 8px;
+   width: 100%;
+   height: 70px;
+   box-shadow: 0px 1px 0px 0px white;
+
+}
+
+#quinto-hora h3{
+    font-size: 15px;
+    padding: 10px;
+    background-color:green;
+    float: left;
+    color: white;
+}
+#quinto-hora {
+  margin: -7px;
+  width: 50px;
+  height: 10px;
+  text-align: center;
+  padding: 16px;
+  margin-top: -15px;
+}
+#quinto-placa{
+    margin-top: -15px;
+    width: 40%;
+    display: flex;
+    color: white;
+    margin-left: 90px;
+    float: left;
+    margin-left: 150px;
+}
+#quinto-foto1{
+   margin-left: 5px;
+   width: 40px;
+   height: 40px;
+}
+#quinto-foto2{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+ }
+#quinto-placa p{
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: -65px;
+}
+#quinto-placa b{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#quinto-placa #p2{
+    margin-left: 10px;
+}
+
+#quinto b{
+    margin-top: 12px;
+    margin-left: 3px;
+}
+
+#placar2{
+    margin-top: 20px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg2{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar2 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar3{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg3{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar3 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar4{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg4{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar4 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar5{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg5{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar5 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar6{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg6{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar6 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar7{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg7{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar7 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar8{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg8{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar8 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar9{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#msg9{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#placar9 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#placar10{
+    margin-top: 50px;
+    width: 100%;
+    height: 43px;
+    background-color: tomato;
+}
+#placar10 h4{
+    padding-top: 12px;
+    margin: 10px;
+}
+#msg10{
+    background-color: #333;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+}
+#tabela{
+    float: left;
+    width: 10%;
+    height: 350px;
+    margin-top: 218px;
+}
+
+
+#modalExemplo3:checked + .modal3
+{
+  display: block;
+}
+.modal3 h4{
+    background-color: tomato;
+    height: 20px;
+    padding: 10px;
+    margin-top: -13px;
+    display: block;
+}
+.moda3 #exit{
+    margin: 0px;
+    background-color: tomato;
+    float: right;
+    width: 13px;
+    padding: 1px;
+    color: black;
+}
+
+.modal3{
+    width: 100%;
+    display: block;
+    border-radius: 5px 5px 2px 2px;
+    display: none;
+}
+modal{
+    margin-top: -32px;
+    height: 30px;
+    float: right;
+    margin-right: -23px;background-color: brown;
+    cursor: pointer;
+}
+
+#conteudomoda3{
+    width: 100%;
+    height: 30px;
+}
+.conteudomodal3 p{
+    width: 100%;
+    margin-top: -68px;
+    text-align: center;
+    color: white;
+}
+#modalExemplo3{
+float: left;
+margin: 10px;
+margin-top: -20px;
+transition: all 0.3s;
+transform: translate(0px);
+display: none;
+}
+#modalExemplo3:hover{
+    transition: all 0.3s;
+    transform: translate(5px);
+    cursor: pointer;
+}
+
+
+
+
+
+table{
+    height: 270px;
+    width: 50%;
+    color: white;
+    background: radial-gradient(transparent,black);
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -250px;
+    box-shadow: 5px 20px 25px 5px black;
+transition: 0.3s all;
+cursor: pointer;
+transform: translate(0px);
+}
+table:hover{
+box-shadow: 0px 0px 0px 1px white;
+transform: translate(30px);
+}
+
+
+    #mais5{
+        width: 180px;
+        height: 35px;
+        margin-top: 60px;
+        background-color: transparent;
+        color: white;
+        font-size: 15.5px;
+        box-shadow: 0px 0px 1px 1px rgb(252, 93, 2);
+        float: left;
+    transition: 0.3s all;
+    cursor: pointer;
+    transform: translate(0px);
+    }
+    #mais5:hover{
+    box-shadow: 0px 0px 0px 0.5px white;
+    transform: translate(20px);
+    }
+
+    #mais5 h4{
+        align-items: center;
+        text-align: center;
+        margin-top: -2px; 
+    }
+
+
+table #dia20{
+    background-color:#333;
+}
+.legend{
+    height: 500px;
+    width: 99.6%;
+    margin-top: 20px;
+    margin:0px 0px 60px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 25px 20px 20px rgb(0, 0, 0);
+}
+#rf img{
+  float: left;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 220px;
+}
+#rf {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    height: 300px;
+    margin-top: -15px;
+  }
+  #rf h3{
+    color: white;
+    margin-top: 120px;
+    font-size: 40px;
+  }
+  #f img{
+      width: 35px;
+      margin-left: 10px;
+      height: 35px;
+      margin-left: 10px;
+      text-align: center;
+      margin: auto;
+      margin-left: 90px;
+
+  }
+  #i img{
+    width: 40px;
+    margin-left: 10px;
+    height: 40px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 10px;
+
+}
+#tw img{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+    margin-left: 40px;
+
+}
+#site{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    display: flex;
+    width: 30%;
+}
+#contato{
+   height: 20px;
+   color: white;
+   text-align: center;
+   margin: auto;
+}
+#contato h4{
+    margin-top: 50px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    display: none;
+}
+#check{
+  display: none;
+}
+
+
+
+ 
+/*------------------------------------------ PARTE RESPONSIVAS------------------------------------*/
+
+@media screen and (max-width:425px) and (min-width:240px){
+
+
+    body{
+        margin: 0px 0px 0px 0px;
+        margin-right:0%;
+        margin: 0%;
+        padding: 0px;
+     }
+     *{
+       box-sizing: border-box;
+       margin-right: 0%;
+       margin: 0%;
+       padding: 0px;
+   }
+   #placar{
+       display: block;
+   }
+ 
+ 
+ 
+    
+     section{
+       width:915px;
+       height: 575px;
+       margin-top: 0px;
+       margin: 0% 0% 0% 0% ;
+       background-size: cover;       
+       padding: 0;
+       margin-right: -20px;
+       float: left;
+     } 
+     menu{
+         width:92%;
+         height: 700px;
+         float: right;
+         margin-left: 25px;
+         margin-right: 20px;
+         margin-top: 0px;
+         border-radius: 10px;
+         background: radial-gradient(transparent,transparent);
+         display: block;
+        
+     }
+ 
+     .checkbtn{
+        width: 11%;
+        margin-left: 740px;
+       font-size: 110px;
+       color: white;
+       float: right;
+       display: block;
+       cursor: pointer;
+       margin-top: -40px;
+       z-index: 3999;
+   
+   }
+   #check{
+       font-size: 30px;
+       color: aliceblue;
+       float: right;
+ 
+   }
+   .logo{
+       display: none;
+   }
+ 
+     .logo2 img{
+         margin-top: -220px;
+         display: block;
+         flex-direction: column;
+         align-items: unset;
+         text-align: center;
+         color: white;
+         float: left;
+         width: 290px;
+         margin-left: -110px;
+     }
+     #check:checked ~ #nav-list{
+         display: block;
+     }
+     .check{
+       display: none;
+     }
+ 
+     nav, #nav-list{
+       flex-direction: column;
+       align-items: unset;
+     }
+     #nav-list{
+         text-align: center;
+         display: block;
+         z-index: 2000;
+         background-color: #333;
+         display: none;
+         border-radius: 0px 0px 0px 0px;
+         float:right;
+         width: 920px;
+         font-size: 30px;
+         margin-left: -57px;
+         height: 600px;
+         margin-top: -208px;
+         
+     }
+     li{
+         margin: 35px;
+     }
+     li:hover{
+         transform: translate(0px);
+         transition: all (0px);
+     }
+     .logo:hover{
+       transform: translate(0px);
+       padding: 0px;
+       box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+ 
+     }
+ 
+     nav{
+         padding-top: 20px;
+ 
+     }
+ 
+     #titulo2 img{
+         margin-top: -130px;
+         float: right;
+         margin-left: -150px;
+     }
+     footer{
+         display: block;
+         height: 1px;
+     }
+     header{
+         display: none;
+         height: 1px;
+     }
+     .check{
+         display: block;
+         width: 50px;
+     }
+     .modal{
+         width: 865px;
+         margin: 20px;
+         display: block;
+         margin-top: 2350px;
+         float: left;
+         height: 700px;
+         background-color: #333;
+     }
+     #segundo-placa{
+     margin-top: -25px;
+     margin-left: 305px;
+     }
+ 
+     #terceiro-placa{
+         margin-top: 0px;
+         margin-left: 295px;
+         }
+ 
+         #quarto-placa{
+             margin-top: -25px;
+             margin-left: 290px;
+             }
+ 
+             #quinto-placa{
+                 margin-top: -0px;
+                 margin-left: 295px;
+                 }
+         
+     #exit{
+         display: block;
+     }
+     
+     .modal h4{
+         display:block;
+     }
+     .modal #exit{
+         background-color: #333;
+         color: #333;
+     }
+    
+     .abrirModal{
+         display: none;
+     }
+     #titulo2 {
+       padding: 20px;
+       font-size: 45px;
+       color: white;
+       display: none;
+     }
+     
+ 
+     
+     .fecharModal h4{
+       margin: auto;
+       text-align: center;
+       color: rgb(0, 0, 0);
+       display: block;
+       font-size: 25px;
+       padding-top: -50px;
+       
+     }
+ 
+       main{
+           width: 911px;
+           height: 3350px;
+           padding-top: 1px;
+           margin: 0% 0% 0% 0% ;
+       }
+       .abrirModal2 h4{
+           font-size: 30px;
+       }
+     
+    main #Noticia h3{
+        background: radial-gradient(transparent,rgb(58, 57, 57) );
+        box-shadow: 0px 0px 4px white;
+        margin-top: 600px;
+        width: 95%;
+        margin-left: 20px;
+ 
+    }
+    main #Noticia #mais{
+        margin: 30px;
+        transform: translate(0px);
+        width: 300px;
+        height: 60px;
+        background-color: #333;
+        text-align: center;
+        align-items: center;
+        margin-right: 300px;
+        margin-top: 800px;
+    }
+    main #Noticia #mais h4{
+          margin-top: 20px;
+   }
+   #butaotopo{
+       display: none;
+   }
+  
+    
+   
+   main #dc{
+       width:95%;
+       height: 240px;
+       border-radius: 0% 0% 0% 0%;
+       margin: 10px 20px 0px 10px;
+       margin: 20px;
+       margin-top: 40px;
+       float: left;
+   }
+   #dc:hover{
+       transform: translate(0px);
+   }
+   main #dc img{
+     width: 50%;  
+     height: 240px;
+     float: left;
+     border-radius: 0% 0% 0% 0%;
+ 
+   }
+   main #dc h1{
+       font-size: 32px;
+       margin-top: 5px;
+       margin-right: 0px;
+       float: right;
+       width: 50%;
+   }
+ 
+   main #dc a{
+     float: left;
+   }
+   main #copinha{
+       width: 95%;
+       height: 240px;
+       border-radius: 0% 0% 0% 0%;
+       margin: 0px;
+       float: left;
+        margin-left: 20px;
+   }
+   #copinha:hover{
+       transform: translate(0px);
+   }
+   main #copinha h4{
+       margin-top: 5px;
+       float: right;
+       font-size: 32px;
+       width: 50%;
+   }
+ 
+ 
+   main #copinha img{
+       width: 50%;
+       height: 240px;
+       border-radius: 0% 0% 0% 0%;
+       float: left;
+   }
+   #coutinho:hover{
+       transform: translate(0px);
+   }
+ 
+   
+   main #coutinho{
+       width: 95%;
+       height: 240px;
+       border-radius: 0% 0% 0% 0%;
+       font-size: 30px;
+       margin: 20px;
+       float: left;
+       margin-left: 20px;
+   }
+   main #coutinho h4{
+       margin-top: 5px;
+       width: 50%;
+       float: right;
+       font-size: 32px;
+ 
+   }
+ 
+   main #coutinho img{
+       width: 50%;
+       height: 240px;
+       border-radius: 0% 0% 0% 0%;
+       float: left;
+   }
+ 
+   #cruzeiro:hover{
+       transform: translate(0px);
+   }
+ 
+   
+   main #cruzeiro{
+       width: 95%;
+       height: 240px;
+       border-radius: 0% 0% 0% 0%;
+       font-size: 30px;
+       margin: 0px;
+       float: left;
+       margin-left: 20px;
+   }
+   main #cruzeiro h4{
+       margin-top: 5px;
+       float: right;
+       font-size: 32px;
+       width: 50%;
+ 
+   }
+ 
+   main #cruzeiro img{
+       width: 50%;
+       height: 240px;
+       border-radius: 0% 0% 0% 0%;
+       float: left;
+   }
+ 
+   #lukaku:hover{
+       transform: translate(0px);
+   }
+ 
+   
+   main #lukaku{
+       width: 42%;
+       margin-top: 10px;
+       height: 300px;
+       border-radius: 0% 0% 0% 0%;
+       font-size: 30px;
+       margin: 20px;
+       margin-left: 20px;
+       float: left;
+   }
+   main #lukaku h4{
+       margin-top: 5px;
+       width: 100%;
+        float: left;
+        font-size: 24px;
+   }
+ 
+   main #lukaku img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0% 0% 0% 0%;
+       float: left;
+   }
+ 
+   #fla:hover{
+       transform: translate(0px);
+   }
+ 
+   
+   main #fla{
+       width: 47%;
+       margin-top: 10px;
+       height: 300px;
+       border-radius: 0% 0% 0% 0%;
+       font-size: 30px;
+       margin: 20px;
+       margin-right: 25px;
+       float: right;
+   }
+   main #fla h4{
+       margin-top: 5px;
+       width: 100%;
+       font-size: 24px;
+       float: right;
+   }
+ 
+   main #fla img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0% 0% 0% 0%;
+       float: left;
+   }
+ 
+ 
+   #futebol-na-tv:hover{
+       transform: translate(0px);
+   }
+ 
+   
+   main #futebol-na-tv{
+       width: 42%;
+       height: 300px;
+       border-radius: 0% 0% 0% 0%;
+       font-size: 30px;
+       float: left;
+       margin-left: 0px;
+       margin: 20px;
+       margin-left: 20px;
+   }
+   main #futebol-na-tv h4{
+       margin-top: 5px;
+       float: left;
+       font-size: 24px;
+ 
+   }
+ 
+   main #futebol-na-tv img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0% 0% 0% 0%;
+       float: left;
+   }
+ 
+   #salah:hover{
+       transform: translate(0px);
+   }
+ 
+   
+   main #salah{
+       width: 47%;
+       margin-top: 20px;
+       height: 300px;
+       border-radius: 0% 0% 0% 0%;
+       font-size: 30px;
+       float: right;
+       margin-left: 0px;
+       margin-right: 25px;
+   }
+   main #salah h4{
+       margin-top: 5px;
+       font-size: 24px;
+       float: right;
+   }
+  
+ 
+   main #salah img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0% 0% 0% 0%;
+       float: left;
+   }
+  
+   hgroup{
+       width: 911px;
+       height: 1550px;
+       margin-top: 0px;
+       margin: 0% 0% 0% 0% ;
+      
+   }
+   #video h3{
+       margin: 20px;
+       background: radial-gradient(transparent,rgb(58, 57, 57) );
+       box-shadow: 0px 0px 4px white;
+       margin-top: 50px;
+       margin-top: -30px;
+ 
+   }
+   #uniformes iframe{
+       width: 50%;
+       border-radius: 0px 0px 0px 0px;
+       margin: 0px;
+       height: 200px;
+   }
+   #uniformes:hover{
+       transform: translate(0px);
+   }
+ 
+   #uniformes {
+       width: 95%;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       margin: 20px;
+       margin-top: 40px;
+   }
+   #uniformes h4{
+       float: right;
+       font-size: 30px;
+       margin-right: -2px;
+       width: 50%;
+   }
+   
+   #lodi iframe{
+       width: 50%;
+       border-radius: 0px 0px 0px 0px;
+       margin: 0px;
+       height: 200px;
+   }
+   #lodi:hover{
+       transform: translate(0px);
+   }
+   #lodi {
+       width: 95%;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       margin: 0px;
+       margin-left: 20px;
+       float: left;
+   }
+   #lodi h4{
+       float: right;
+       font-size: 30px;
+       margin-right: 0px;
+       width: 50%;
+ 
+   }
+  
+   #psg iframe{
+       width: 50%;
+       border-radius: 0px 0px 0px 0px;
+       margin: 0px;
+       height: 200px;
+   }
+   #psg:hover{
+       transform: translate(0px);
+   }
+   #psg {
+       width: 95%;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       margin: 20px;
+       float: left;
+   }
+   #psg h4{
+       float: right;
+       font-size: 30px;
+       margin-right: 0px;
+       width: 50%;
+   }
+ 
+   #melhor-do-mundo iframe{
+       width: 50%;
+       border-radius: 0px 0px 0px 0px;
+       margin: 0px;
+       height: 200px;
+   }
+   #melhor-do-mundo:hover{
+       transform: translate(0px);
+   }
+ 
+   #melhor-do-mundo {
+       width: 95%;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       margin: 0px;
+       float: left;
+       margin-left: 20px;
+   }
+   #melhor-do-mundo h4{
+       float: right;
+       font-size: 30px;
+       margin-right: 0px;
+       width: 50%;
+   }
+ 
+   #timao iframe{
+       width: 50%;
+       border-radius: 0px 0px 0px 0px;
+       margin: 0px;
+       height: 200px;
+   }
+   #timao:hover{
+       transform: translate(0px);
+   }
+   #timao {
+       width: 95%;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       margin: 20px;
+       float: left;
+   }
+   #timao h4{
+       float: right;
+       font-size: 30px;
+       margin-right: 0px;
+       width: 50%;
+   }
+ 
+ 
+   #selecao iframe{
+       width: 50%;
+       border-radius: 0px 0px 0px 0px;
+       margin: 0px;
+       height: 200px;
+   }
+   #selecao:hover{
+       transform: translate(0px);
+   }
+ 
+   #selecao {
+       width: 95%;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       margin: 0px;
+       float: left;
+       margin-left: 20px;
+   }
+   #selecao h4{
+       float: right;
+       font-size: 30px;
+       margin-right: -0px;
+       width: 50%;
+   }
+   #mais2 {
+       width: 300px;
+       height: 60px;
+       text-align: center;
+       align-items: center;
+       margin-right: 300px;
+       transform: translate(0px);
+       margin-top: 60px;
+ 
+   }
+   #mais2:hover{
+       transform: translate(0px);
+   }
+ 
+   #mais2 h4 {
+     margin-top: 20px;
+   }
+ 
+   legend{
+       width: 911px;
+       height: 1650px;
+       margin-top: 0px;
+       margin: 0% 0% 0% 0% ;
+      
+   }
+   #mercado-da-bola{
+    background: radial-gradient(transparent, transparent);
+    box-shadow: 0px 0px 0px 0px transparent;
+ 
+   }
+   #mercado-da-bola h3{
+       margin: 20px;
+       background: radial-gradient(transparent,rgb(58, 57, 57) );
+       box-shadow: 0px 0px 4px white;
+       margin-top: -30px;
+ 
+   }
+   #rafael:hover{
+       transform: translate(0px);
+   }
+   #rafael img{
+       height: 430px;
+   }
+   #rafael h4{
+     margin-top: -5px;
+   }
+   #rafael{
+       width: 95%;
+       margin: 20px;
+       border-radius: 0px 0px 0px 0px;
+       height: 500px;
+       font-size: 27px;
+   }
+   #leila{
+       float: right;
+       width: 47%;
+       margin: 0px;
+       border-radius: 0px 0px 0px 0px;
+       height: 300px;
+       margin-right: 27px;
+   }
+   #leila:hover{
+       transform: translate(0px);
+   }
+   #leila img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0px 0px 0px 0px;
+   }
+   #leila h4{
+       float: left;
+       font-size: 24px;
+   }
+    
+   #gremio{
+       float: left;
+       width: 42%;
+       margin: 0px;
+       border-radius: 0px 0px 0px 0px;
+       height: 300px;
+       margin-left: 20px;
+   }
+   #gremio:hover{
+       transform: translate(0px);
+   }
+   #gremio img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0px 0px 0px 0px;
+   }
+   #gremio h4{
+       float: right;
+       font-size: 24px;
+   }
+    
+   #devid{
+       float: right;
+       width: 47%;
+       margin: 20px;
+       border-radius: 0px 0px 0px 0px;
+       height: 310px;
+       margin-right: 27px;
+   }
+   #devid:hover{
+       transform: translate(0px);
+   }
+ 
+   #devid img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0px 0px 0px 0px;
+   }
+   #devid h4{
+       float: right;
+       font-size: 24px;
+   }
+   #michael:hover{
+       transform: translate(0px);
+   }
+ 
+   #michael{
+       float: left;
+       width: 42%;
+       margin: 20px;
+       border-radius: 0px 0px 0px 0px;
+       height: 310px;
+       margin-left: 20px;
+   }
+   #michael img{
+       width: 100%;
+       height: 200px;
+       border-radius: 0px 0px 0px 0px;
+   }
+   #michael h4{
+       float: right;
+       font-size: 24px;
+   }
+ 
+   #matias-vencino{
+       float: left;
+       width: 95%;
+       margin: 0px;
+       border-radius: 0px 0px 0px 0px;
+       height: 250px;
+       margin-left: 20px;
+   }
+   #matias-vencino img{
+       width: 50%;
+       height: 250px;
+       border-radius: 0px 0px 0px 0px;
+       float: right;
+   }
+   #matias-vencino:hover{
+       transform: translate(0px);
+   }
+   #matias-vencino h4{
+       float: left;
+       font-size: 32px;
+       width: 50%;
+       margin-top: 10px;
+   }
+    
+   #mais3 {
+       width: 300px;
+       height: 60px;
+       text-align: center;
+       align-items: center;
+       margin-right: 300px;
+       transform: translate(0px);
+       margin-top: 60px;
+ 
+   }
+   #mais3:hover{
+       transform: translate(0px);
+   }
+ 
+   #mais3 h4 {
+     margin-top: 20px;
+   }
+   summary{
+       width: 911px;
+       height: 1550px;
+       margin: 0% 0% 0% 0% ;
+      
+   }
+   #jogo h3{
+       margin: 20px;
+       background: radial-gradient(transparent,rgb(58, 57, 57) );
+       box-shadow: 0px 0px 2px white;
+       margin-top: 40px;
+ 
+   }
+   #blue{
+       width: 95%;
+       margin: 20px;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       float: left;
+   }
+   #blue img{
+       width: 50%;
+       height: 200px;
+       float: left;
+       border-radius: 0px 0px 0px 0px;
+ 
+   }
+   #blue h4{
+       width: 50%;
+       float: right;
+       font-size: 30px;
+   }
+   #blue:hover{
+       transform: translate(0px);
+   }
+ 
+ 
+   #atalanta{
+       width: 95%;
+       margin: 0px;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       float: left;
+       margin-left: 20px;
+   }
+   #atalanta img{
+       width: 50%;
+       height: 200px;
+       float: left;
+       border-radius: 0px 0px 0px 0px;
+ 
+   }
+   #atalanta h4{
+       width: 50%;
+       float: right;
+       font-size: 30px;
+   }
+   #atalanta:hover{
+       transform: translate(0px);
+   }
+ 
+   #united {
+       width: 95%;
+       margin: 20px;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       float: left;
+   }
+   #united img{
+       width: 50%;
+       height: 200px;
+       float: left;
+       border-radius: 0px 0px 0px 0px;
+ 
+   }
+   #united  h4{
+       width: 50%;
+       float: right;
+       font-size: 30px;
+   }
+   #united:hover{
+       transform: translate(0px);
+   }
+ 
+ 
+   #real-barca  {
+       width: 95%;
+       margin: 0px;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       float: left;
+       margin-left: 20px;
+   }
+   #real-barca img{
+       width: 50%;
+       height: 200px;
+       float: left;
+       border-radius: 0px 0px 0px 0px;
+ 
+   }
+   #real-barca h4{
+       width: 50%;
+       float: right;
+       font-size: 30px;
+   }
+   #real-barca:hover{
+       transform: translate(0px);
+   }
+ 
+   #juve  {
+       width: 95%;
+       margin: 20px;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       float: left;
+   }
+   #juve img{
+       width: 50%;
+       height: 200px;
+       float: left;
+       border-radius: 0px 0px 0px 0px;
+ 
+   }
+   #juve h4{
+       width: 50%;
+       float: right;
+       font-size: 30px;
+   }
+   #juve:hover{
+       transform: translate(0px);
+   }
+ 
+   #espn  {
+       width: 95%;
+       margin: 0px;
+       border-radius: 0px 0px 0px 0px;
+       height: 200px;
+       float: left;
+       margin-left: 20px;
+   }
+   #espn img{
+       width: 50%;
+       height: 200px;
+       float: left;
+       border-radius: 0px 0px 0px 0px;
+ 
+   }
+   #espn h4{
+       width: 50%;
+       float: right;
+       font-size: 30px;
+   }
+   #espn:hover{
+       transform: translate(0px);
+   }
+ 
+   #mais4 {
+       width: 300px;
+       height: 60px;
+       text-align: center;
+       align-items: center;
+       margin-right: 300px;
+       transform: translate(0px);
+       margin-top: 50px;
+ 
+   }
+   #mais4:hover{
+       transform: translate(0px);
+   }
+ 
+   #mais4 h4 {
+     margin-top: 16px;
+   }
+ 
+   .legend{
+       width: 911px;
+   }
+   #rf h3{
+       width: 100%;
+       margin-top: 0px;
+       display: none;
+   }
+ 
+   #site{
+       margin-left: 220px;
+   }
+ 
+   #f{
+     transform: translateX(50px);
+ 
+    }
+    #rf img{
+        width: 600px;
+        height: 300px;
+        transform: translateX(-150px);
+    }
+    #rf h3{
+        display: none;
+    }
+ #i{
+    transform: translateX(50px);
+ 
+ }
+ #tw{
+    transform: translateX(50px);
+ 
+ }
+ 
+ 
+ }
+ 
+ 
+ 
+
+
+
+
+@media screen and (max-width: 916px) and (min-width:426px){
+    
+    @viewport{
+        zoom: 0.4;
+        width: device-width;
+    }
+    @viewport{
+        zoom: 0.4;
+        width: extend-to-zoom;
+    }
+    @-ms-viewport{
+        width: extend-to-zoom;
+        zoom: 0.4;
+    }
+    
+
+
+    body{
+       margin: 0px 0px 0px 0px;
+       margin-right:0%;
+       margin: 0%;
+       padding: 0px;
+    }
+    *{
+      box-sizing: border-box;
+      margin-right: 0%;
+      margin: 0%;
+      padding: 0px;
+  }
+
+
+
+   
+    section{
+      width:911px;
+      height: 580px;
+      margin-top: 0px;
+      margin: 0% 0% 0% 0% ;
+      background-size: cover;       
+      padding: 0;
+      margin-right: -20px;
+      float: left;
+    } 
+    #placar{
+        display: block;
+    }
+    menu{
+        width:92%;
+        height: 700px;
+        float: right;
+        margin-left: 25px;
+        margin-right: 20px;
+        margin-top: 0px;
+        border-radius: 10px;
+        background: radial-gradient(transparent,transparent);
+        display: block;
+       
+    }
+
+    .checkbtn{
+       width: 11%;
+       margin-left: 770px;
+      font-size: 60px;
+      color: white;
+      float: right;
+      display: block;
+      cursor: pointer;
+      margin-top: -20px;
+      z-index: 3999;
+  
+  }
+  #check{
+      font-size: 30px;
+      color: aliceblue;
+      float: right;
+
+  }
+  .logo{
+      display: none;
+  }
+
+    .logo2 img{
+        margin-top: -130px;
+        display: block;
+        flex-direction: column;
+        align-items: unset;
+        text-align: center;
+        color: white;
+        float: left;
+        width: 220px;
+        margin-left: -50px;
+    }
+    #check:checked ~ #nav-list{
+        display: block;
+    }
+    .check{
+      display: none;
+    }
+
+    nav, #nav-list{
+      flex-direction: column;
+      align-items: unset;
+    }
+    #nav-list{
+        text-align: center;
+        display: block;
+        z-index: 3000;
+        margin-top: -171px;
+         background-color: #333;
+        display: none;
+        border-radius: 10px 10px 10px 10px;
+        float:right;
+        width: 925px;
+        font-size: 30px;
+        transform: translateX(-35px);
+        margin-left: -30px;
+        height: 750px;
+        
+    }
+    li{
+        margin: 35px;
+    }
+    li:hover{
+        transform: translate(0px);
+        transition: all (0px);
+    }
+    .logo:hover{
+      transform: translate(0px);
+      padding: 0px;
+      box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+
+    }
+
+    nav{
+        padding-top: 20px;
+
+    }
+
+    #titulo2 img{
+        margin-top: -130px;
+        float: right;
+        margin-left: -150px;
+    }
+    footer{
+        display: block;
+        height: 1px;
+    }
+    header{
+        display: none;
+        height: 1px;
+    }
+    .check{
+        display: block;
+        width: 50px;
+    }
+    .modal{
+        width: 865px;
+        margin: 20px;
+        display: block;
+        margin-top: 2200px;
+        float: left;
+        height: 700px;
+    }
+    #segundo-placa{
+    margin-top: -25px;
+    margin-left: 305px;
+    }
+
+    #terceiro-placa{
+        margin-top: 0px;
+        margin-left: 295px;
+        }
+
+        #quarto-placa{
+            margin-top: -25px;
+            margin-left: 290px;
+            }
+
+            #quinto-placa{
+                margin-top: -0px;
+                margin-left: 295px;
+                }
+        
+    #exit{
+        display: block;
+    }
+    
+    .modal h4{
+        display:block;
+    }
+    .modal #exit{
+        background-color: #333;
+        color: #333;
+    }
+   
+    .abrirModal{
+        display: none;
+    }
+    #titulo2 {
+      padding: 20px;
+      font-size: 45px;
+      color: white;
+      display: none;
+    }
+    
+
+    
+    .fecharModal h4{
+      margin: auto;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      display: block;
+      font-size: 25px;
+      padding-top: -50px;
+      
+    }
+
+      main{
+          width: 911px;
+          height: 3200px;
+          padding-top: 1px;
+          margin: 0% 0% 0% 0% ;
+      }
+      .abrirModal2 h4{
+          font-size: 30px;
+      }
+    
+   main #Noticia h3{
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+       box-shadow: 0px 0px 0px 0.5px white ;
+       margin-top: 600px;
+       margin-left: 20px;
+       width:95%;
+
+   }
+   main #Noticia #mais{
+       margin: 30px;
+       transform: translate(0px);
+       width: 300px;
+       height: 60px;
+       background-color: #333;
+       text-align: center;
+       align-items: center;
+       margin-right: 300px;
+       margin-top: 800px;
+   }
+   main #Noticia #mais h4{
+         margin-top: 20px;
+  }
+  #butaotopo{
+      display: none;
+  }
+ 
+   
+  
+  main #dc{
+      width:95%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      margin: 10px 20px 0px 10px;
+      margin: 20px;
+      margin-top: 40px;
+      float: left;
+  }
+  #dc:hover{
+      transform: translate(0px);
+  }
+  main #dc img{
+    width: 50%;  
+    height: 200px;
+    float: left;
+    border-radius: 0% 0% 0% 0%;
+
+  }
+    a {
+      font-size: 25px;
+  }
+  main #dc h1{
+      font-size: 25px;
+      margin-top: 5px;
+      margin-right: 0px;
+      float: right;
+      width: 50%;
+  }
+
+  main #dc a{
+    float: left;
+  }
+  main #copinha{
+      width: 95%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      font-size: 30px;
+      margin: 0px;
+      float: left;
+       margin-left: 20px;
+  }
+  #copinha:hover{
+      transform: translate(0px);
+  }
+  main #copinha h4{
+      margin-top: 5px;
+      float: right;
+      font-size: 20px;
+      width: 50%;
+  }
+
+
+  main #copinha img{
+      width: 50%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      float: left;
+  }
+  #coutinho:hover{
+      transform: translate(0px);
+  }
+
+  
+  main #coutinho{
+      width: 95%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      font-size: 30px;
+      margin: 20px;
+      float: left;
+      margin-left: 20px;
+  }
+  main #coutinho h4{
+      margin-top: 5px;
+      width: 50%;
+      float: right;
+      font-size: 20px;
+
+  }
+
+  main #coutinho img{
+      width: 50%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      float: left;
+  }
+
+  #cruzeiro:hover{
+      transform: translate(0px);
+  }
+
+  
+  main #cruzeiro{
+      width: 95%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      font-size: 30px;
+      margin: 0px;
+      float: left;
+      margin-left: 20px;
+  }
+  main #cruzeiro h4{
+      margin-top: 5px;
+      float: right;
+      font-size: 20px;
+      width: 50%;
+
+  }
+
+  main #cruzeiro img{
+      width: 50%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      float: left;
+  }
+
+  #lukaku:hover{
+      transform: translate(0px);
+  }
+
+  
+  main #lukaku{
+      width: 42%;
+      margin-top: 10px;
+      height: 300px;
+      border-radius: 0% 0% 0% 0%;
+      font-size: 30px;
+      margin: 20px;
+      margin-left: 20px;
+      float: left;
+  }
+  main #lukaku h4{
+      margin-top: 5px;
+      width: 100%;
+       float: left;
+       font-size: 20px;
+  }
+
+  main #lukaku img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      float: left;
+  }
+
+  #fla:hover{
+      transform: translate(0px);
+  }
+
+  
+  main #fla{
+      width: 47%;
+      margin-top: 10px;
+      height: 300px;
+      border-radius: 0% 0% 0% 0%;
+      font-size: 30px;
+      margin: 20px;
+      margin-right: 25px;
+      float: right;
+  }
+  main #fla h4{
+      margin-top: 5px;
+      width: 100%;
+      font-size: 20px;
+      float: right;
+  }
+
+  main #fla img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      float: left;
+  }
+
+
+  #futebol-na-tv:hover{
+      transform: translate(0px);
+  }
+
+  
+  main #futebol-na-tv{
+      width: 42%;
+      height: 300px;
+      border-radius: 0% 0% 0% 0%;
+      font-size: 30px;
+      float: left;
+      margin-left: 0px;
+      margin: 20px;
+      margin-left: 20px;
+  }
+  main #futebol-na-tv h4{
+      margin-top: 5px;
+      float: left;
+      font-size: 20px;
+
+  }
+
+  main #futebol-na-tv img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      float: left;
+  }
+
+  #salah:hover{
+      transform: translate(0px);
+  }
+
+  
+  main #salah{
+      width: 47%;
+      margin-top: 20px;
+      height: 300px;
+      border-radius: 0% 0% 0% 0%;
+      font-size: 30px;
+      float: right;
+      margin-left: 0px;
+      margin-right: 25px;
+  }
+  main #salah h4{
+      margin-top: 5px;
+      font-size: 20px;
+      float: right;
+  }
+ 
+
+  main #salah img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0% 0% 0% 0%;
+      float: left;
+  }
+ 
+  hgroup{
+      width: 911px;
+      height: 1550px;
+      margin-top: 0px;
+      margin: 0% 0% 0% 0% ;
+     
+  }
+  #video h3{
+      background: radial-gradient(transparent,rgb(58, 57, 57) );
+     margin: 20px;
+      margin-top: 50px;
+      box-shadow: 0px 0px 0px 0.5px white;
+      margin-top: -50px;
+
+  }
+  #uniformes iframe{
+      width: 50%;
+      border-radius: 0px 0px 0px 0px;
+      margin: 0px;
+      height: 200px;
+  }
+  #uniformes:hover{
+      transform: translate(0px);
+  }
+
+  #uniformes {
+      width: 95%;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      margin: 20px;
+      margin-top: 30px;
+  }
+  #uniformes h4{
+      float: right;
+      font-size: 20px;
+      margin-right: -2px;
+      width: 50%;
+  }
+  
+  #lodi iframe{
+      width: 50%;
+      border-radius: 0px 0px 0px 0px;
+      margin: 0px;
+      height: 200px;
+  }
+  #lodi:hover{
+      transform: translate(0px);
+  }
+  #lodi {
+      width: 95%;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      margin: 0px;
+      margin-left: 20px;
+      float: left;
+  }
+  #lodi h4{
+      float: right;
+      font-size: 20px;
+      margin-right: 0px;
+      width: 50%;
+
+  }
+ 
+  #psg iframe{
+      width: 50%;
+      border-radius: 0px 0px 0px 0px;
+      margin: 0px;
+      height: 200px;
+  }
+  #psg:hover{
+      transform: translate(0px);
+  }
+  #psg {
+      width: 95%;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      margin: 20px;
+      float: left;
+  }
+  #psg h4{
+      float: right;
+      font-size: 20px;
+      margin-right: 0px;
+      width: 50%;
+  }
+
+  #melhor-do-mundo iframe{
+      width: 50%;
+      border-radius: 0px 0px 0px 0px;
+      margin: 0px;
+      height: 200px;
+  }
+  #melhor-do-mundo:hover{
+      transform: translate(0px);
+  }
+
+  #melhor-do-mundo {
+      width: 95%;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      margin: 0px;
+      float: left;
+      margin-left: 20px;
+  }
+  #melhor-do-mundo h4{
+      float: right;
+      font-size: 20px;
+      margin-right: 0px;
+      width: 50%;
+  }
+
+  #timao iframe{
+      width: 50%;
+      border-radius: 0px 0px 0px 0px;
+      margin: 0px;
+      height: 200px;
+  }
+  #timao:hover{
+      transform: translate(0px);
+  }
+  #timao {
+      width: 95%;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      margin: 20px;
+      float: left;
+  }
+  #timao h4{
+      float: right;
+      font-size: 20px;
+      margin-right: 0px;
+      width: 50%;
+  }
+
+
+  #selecao iframe{
+      width: 50%;
+      border-radius: 0px 0px 0px 0px;
+      margin: 0px;
+      height: 200px;
+  }
+  #selecao:hover{
+      transform: translate(0px);
+  }
+
+  #selecao {
+      width: 95%;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      margin: 0px;
+      float: left;
+      margin-left: 20px;
+  }
+  #selecao h4{
+      float: right;
+      font-size: 20px;
+      margin-right: -0px;
+      width: 50%;
+  }
+  #mais2 {
+      width: 300px;
+      height: 60px;
+      text-align: center;
+      align-items: center;
+      margin-right: 300px;
+      transform: translate(0px);
+
+  }
+  #mais2:hover{
+      transform: translate(0px);
+  }
+
+  #mais2 h4 {
+    margin-top: 20px;
+  }
+
+  legend{
+      width: 911px;
+      height: 1650px;
+      margin-top: 0px;
+      margin: 0% 0% 0% 0% ;
+     
+  }
+ 
+  #mercado-da-bola {
+      margin: 20px;
+      margin-top: -10px;
+      background: radial-gradient(transparent,rgb(58, 57, 57) );
+      width: 95%;
+      font-size: 40px;
+
+  }
+  #rafael:hover{
+      transform: translate(0px);
+  }
+  #rafael img{
+      height: 400px;
+  }
+  #rafael{
+      width: 100%;
+      margin: 20px;
+      border-radius: 0px 0px 0px 0px;
+      height: 500px;
+      font-size: 25px;
+      margin-left: 0px;
+  }
+  #leila{
+      float: right;
+      width: 47%;
+      margin: 0px;
+      border-radius: 0px 0px 0px 0px;
+      height: 300px;
+      margin-right: 0px;
+
+  }
+  #leila:hover{
+      transform: translate(0px);
+  }
+  #leila img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0px 0px 0px 0px;
+  }
+  #leila h4{
+      float: left;
+      font-size: 20px;
+  }
+   
+  #gremio{
+      float: left;
+      width: 42%;
+      margin: 0px;
+      border-radius: 0px 0px 0px 0px;
+      height: 300px;
+      margin-left: 0px;
+  }
+  #gremio:hover{
+      transform: translate(0px);
+  }
+  #gremio img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0px 0px 0px 0px;
+  }
+  #gremio h4{
+      float: right;
+      font-size: 20px;
+  }
+   
+  #devid{
+      float: right;
+      width: 47%;
+      margin: 20px;
+      border-radius: 0px 0px 0px 0px;
+      height: 310px;
+      margin-right: 0px;
+  }
+  #devid:hover{
+      transform: translate(0px);
+  }
+
+  #devid img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0px 0px 0px 0px;
+  }
+  #devid h4{
+      float: right;
+      font-size: 20px;
+  }
+  #michael:hover{
+      transform: translate(0px);
+  }
+
+  #michael{
+      float: left;
+      width: 42%;
+      margin: 20px;
+      border-radius: 0px 0px 0px 0px;
+      height: 310px;
+      margin-left: 0px;
+  }
+  #michael img{
+      width: 100%;
+      height: 200px;
+      border-radius: 0px 0px 0px 0px;
+  }
+  #michael h4{
+      float: right;
+      font-size: 20px;
+  }
+
+  #matias-vencino{
+      float: left;
+      width: 100%;
+      margin: 0px;
+      border-radius: 0px 0px 0px 0px;
+      height: 250px;
+      margin-left: 0px;
+  }
+  #matias-vencino img{
+      width: 50%;
+      height: 250px;
+      border-radius: 0px 0px 0px 0px;
+      float: right;
+  }
+  #matias-vencino:hover{
+      transform: translate(0px);
+  }
+  #matias-vencino h4{
+      float: left;
+      font-size: 25px;
+      width: 50%;
+      margin-top: 10px;
+  }
+   
+  #mais3 {
+      width: 300px;
+      height: 60px;
+      text-align: center;
+      align-items: center;
+      margin-right: 300px;
+      transform: translate(0px);
+      margin-top: 50px;
+
+  }
+  #mais3:hover{
+      transform: translate(0px);
+  }
+
+  #mais3 h4 {
+    margin-top: 20px;
+  }
+  summary{
+      width: 911px;
+      height: 1550px;
+      margin: 0% 0% 0% 0% ;
+     
+  }
+  #jogo h3{
+    background: radial-gradient(transparent,rgb(58, 57, 57) );
+      box-shadow: 0px 0px 0px 0.5px white;
+      margin: 20px;
+      margin-top: 0px;
+
+  }
+  #blue{
+      width: 95%;
+      margin: 20px;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      float: left;
+  }
+  #blue img{
+      width: 50%;
+      height: 200px;
+      float: left;
+      border-radius: 0px 0px 0px 0px;
+
+  }
+  #blue h4{
+      width: 50%;
+      float: right;
+      font-size: 25px;
+  }
+  #blue:hover{
+      transform: translate(0px);
+  }
+
+
+  #atalanta{
+      width: 95%;
+      margin: 0px;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      float: left;
+      margin-left: 20px;
+  }
+  #atalanta img{
+      width: 50%;
+      height: 200px;
+      float: left;
+      border-radius: 0px 0px 0px 0px;
+
+  }
+  #atalanta h4{
+      width: 50%;
+      float: right;
+      font-size: 25px;
+  }
+  #atalanta:hover{
+      transform: translate(0px);
+  }
+
+  #united {
+      width: 95%;
+      margin: 20px;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      float: left;
+  }
+  #united img{
+      width: 50%;
+      height: 200px;
+      float: left;
+      border-radius: 0px 0px 0px 0px;
+
+  }
+  #united  h4{
+      width: 50%;
+      float: right;
+      font-size: 25px;
+  }
+  #united:hover{
+      transform: translate(0px);
+  }
+
+
+  #real-barca  {
+      width: 95%;
+      margin: 0px;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      float: left;
+      margin-left: 20px;
+  }
+  #real-barca img{
+      width: 50%;
+      height: 200px;
+      float: left;
+      border-radius: 0px 0px 0px 0px;
+
+  }
+  #real-barca h4{
+      width: 50%;
+      float: right;
+      font-size: 25px;
+  }
+  #real-barca:hover{
+      transform: translate(0px);
+  }
+
+  #juve  {
+      width: 95%;
+      margin: 20px;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      float: left;
+  }
+  #juve img{
+      width: 50%;
+      height: 200px;
+      float: left;
+      border-radius: 0px 0px 0px 0px;
+
+  }
+  #juve h4{
+      width: 50%;
+      float: right;
+      font-size: 25px;
+  }
+  #juve:hover{
+      transform: translate(0px);
+  }
+
+  #espn  {
+      width: 95%;
+      margin: 0px;
+      border-radius: 0px 0px 0px 0px;
+      height: 200px;
+      float: left;
+      margin-left: 20px;
+  }
+  #espn img{
+      width: 50%;
+      height: 200px;
+      float: left;
+      border-radius: 0px 0px 0px 0px;
+
+  }
+  #espn h4{
+      width: 50%;
+      float: right;
+      font-size: 25px;
+  }
+  #espn:hover{
+      transform: translate(0px);
+  }
+
+  #mais4 {
+      width: 300px;
+      height: 60px;
+      text-align: center;
+      align-items: center;
+      margin-right: 300px;
+      transform: translate(0px);
+
+  }
+  #mais4:hover{
+      transform: translate(0px);
+  }
+
+  #mais4 h4 {
+    margin-top: 16px;
+  }
+
+  .legend{
+      width: 911px;
+  }
+  #rf h3{
+      width: 100%;
+      margin-top: 0px;
+      display: none;
+  }
+
+  #site{
+      margin-left: 220px;
+  }
+
+  #f{
+    transform: translateX(50px);
+
+   }
+   #rf img{
+       width: 600px;
+       height: 300px;
+       transform: translateX(-150px);
+   }
+   #rf h3{
+       display: none;
+   }
+#i{
+   transform: translateX(50px);
+
+}
+#tw{
+   transform: translateX(50px);
+
+}
+
+
+}
+
+
+@media screen and (min-width:917px) and (max-width:1280px) {
+
+    body{
+    }
+    .modal{
+        width: 560px;
+        height: 410px;
+        background: radial-gradient(transparent,black);
+    }
+    #nav-list{
+        padding-top: 50px;
+    }
+    nav{
+        padding-top: 50px;
+    }
+    .logo{
+        width: 30%;
+        padding-top: 50px;
+        float: left;
+        transition: all 0.3s;
+
+
+    }
+    .logo:hover{
+        transform: translate(0px);
+        transition: all 0.3s;
+    }
+    main{
+        height: 1350px;
+    }
+    #dc{
+        width: 58%;
+        height: 555px;
+        float: left;
+    }
+    #dc h1{
+        margin-top: 0px;
+        font-size: 33px;
+    }
+    #dc img{
+        height: 390px;
+    }
+    #copinha{
+        margin-top: 50px;
+        float: right;
+        height: 270px;
+    }
+    #copinha h4{
+        margin-top: -5px;
+        font-size: 12px;
+    }
+    #copinha img{
+        float: right;
+        height: 190px;
+    }
+    #coutinho{
+        margin-top: 15px;
+        float: right;
+        height: 270px;
+        font-size: 12px;
+
+    }
+    #coutinho img{
+        float: right;
+        height: 180px;
+    }
+    #lukaku{
+        width: 49%;
+        height: 330px;
+        float: right;
+        font-size: 17px;
+    }
+    #lukaku img{
+        height: 250px;
+        float: right;
+    }
+    #lukaku h4{
+        margin-top: 0;
+    }
+    #cruzeiro{
+        width: 49%;
+        height: 330px;
+        float: left;
+        font-size: 17px;
+
+    }
+    #cruzeiro img{
+        height: 250px;
+        float: right;
+    }
+    #cruzeiro h4{
+        margin-top: 0;
+    }
+    #fla{
+        width: 30%;
+        height: 260px;
+        float: left;
+    }
+    #fla img{
+        height: 170px;
+    }
+    #fla h4{
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    #futebol-na-tv{
+        width: 30%;
+        height: 260px;
+        float: left;
+        margin-left: 42px;
+        
+    }
+    #futebol-na-tv img{
+        height: 170px;
+    }
+    #futebol-na-tv h4{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    #salah{
+        width: 30%;
+        height: 260px;
+        float: right;
+        margin-left: 20px;
+    }
+    #salah img{
+        height: 170px;
+    }
+    #salah h4{
+        margin-top: 0;
+        font-size: 11.5px;
+    }
+
+    hgroup{
+        height: 1450px;
+        margin-top: -70px;
+    }
+    #uniformes{
+        width: 49%;
+        height: 410px;
+        float: left;
+    }
+    #uniformes iframe{
+        width: 100%;
+    }
+    #uniformes h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+        margin-top: -5px;
+
+    }
+    #lodi{
+        width: 49%;
+        height: 410px;
+        margin-top: 50px;
+        float: right;
+    }
+    #lodi iframe{
+        width: 100%;
+        margin-top: -5px;
+    }
+    #lodi h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+        margin-top: -5px;
+
+    }
+      
+    #psg{
+        width: 49%;
+        height: 415px;
+        margin-top: 10px;
+        float: left;
+    }
+    #psg iframe{
+        width: 100%;
+    }
+    #psg h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+        margin-top: -5px;
+
+    }
+
+    #melhor-do-mundo{
+        width: 49%;
+        height: 415px;
+        margin-top: 10px;
+        float: right;
+    }
+    #melhor-do-mundo iframe{
+        width: 100%;
+    }
+    #melhor-do-mundo h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+        margin-top: -5px;
+
+    }
+    #timao{
+        width: 49%;
+        height: 430px;
+        margin-top: 10px;
+        float: right;
+    }
+    #timao iframe{
+        width: 100%;
+    }
+    #timao h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+        margin-top: -5px;
+
+    }
+
+    #Noticia h4{
+        font-size: 20px;
+    }
+
+    #selecao{
+        width: 49%;
+        height: 430px;
+        margin-top: 10px;
+        float: left;
+    }
+    #selecao iframe{
+        width: 100%;
+    }
+    #selecao h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+        margin-top: -5px;
+
+    }
+    legend{
+        height: 1100px;
+        margin-top: -60px;
+    }
+    #rafael{
+        height: 600px;
+        width: 60%;
+    }
+    #rafael img{
+        height: 400px;
+    }
+    #rafael h4{
+        font-size: 39px;
+        margin-top: -5px;
+    }
+    #leila{
+        width: 38%;
+        height: 290px;
+    }
+    #leila img{
+        height: 230px;
+    }
+    #leila h4{
+    font-size: 16px;
+    margin-top: -5px;
+    }
+    #gremio{
+        width: 38%;
+        height: 290px;
+        margin-top: 15px;
+
+    }
+    #gremio img{
+        height:230px;
+    }
+    #gremio h4{
+    font-size: 19px;
+    margin-top: -5px;
+
+    }
+    #devid{
+        height: 300px;
+        float: right;
+        margin-top: 25px;
+        width: 30%;
+
+    }
+    #devid img{
+        height: 200px;
+    }
+    #devid h4{
+        font-size: 20px;
+        margin-top: -5px;
+
+    }
+
+    #michael{
+        height: 300px;
+        width: 30%;
+        transform: translateX(-15px);
+    }
+    #michael img{
+        height: 200px;
+    }
+    #michael h4{
+        font-size: 18px;
+        margin-top: -5px;
+
+    }
+
+
+    #matias-vencino {
+        height: 300px;
+        float: left;
+        width: 30%;
+
+    }
+    #matias-vencino img{
+        height: 200px;
+    }
+    #matias-vencino h4{
+        font-size: 17.5px;
+        margin-top: -5px;
+
+    }
+    #mais3{
+        margin-top: 20px;
+        float: right;
+    }
+    summary{
+        height: 1200px;
+    }
+    #blue{
+        width: 49%;
+        height: 330px;
+        float: left;
+    }
+    #blue img{
+        height: 250px;
+    }
+    #blue h4{
+    font-size: 20px;
+    margin-top: 0px;
+    }
+
+    #atalanta{
+        width: 49%;
+        height: 330px;
+        float: right;
+    }
+    #atalanta img{
+        height: 250px;
+    }
+    #atalanta h4{
+    font-size: 20px;
+    margin-top: 0px;
+    }
+
+    #united{
+        width: 49%;
+        height: 330px;
+        float: left;
+    }
+    #united img{
+        height: 250px;
+    }
+    #united h4{
+    font-size: 20px;
+    margin-top: 0px;
+    }
+
+    #real-barca {
+        width: 49%;
+        height: 330px;
+        float: right;
+    }
+    #real-barca  img{
+        height: 250px;
+    }
+    #real-barca  h4{
+    font-size: 20px;
+    margin-top: 0px;
+    }
+
+    #juve{
+        width: 49%;
+        height: 330px;
+        float: left;
+    }
+    #juve img{
+        height: 250px;
+    }
+    #juve h4{
+    font-size: 20px;
+    margin-top: 0px;
+    }
+
+    #espn{
+        width: 49%;
+        height: 330px;
+        float: right;
+    }
+    #espn img{
+        height: 250px;
+    }
+    #espn h4{
+    font-size: 20px;
+    margin-top: 0px;
+    }
+    #f{
+     transform: translateX(20px);
+     display: none;
+
+    }
+    #rf img{
+        width: 300px;
+        height: 300px;
+        transform: translateX(70px);
+    }
+    #rf h3{
+        display: none;
+    }
+#i{
+    transform: translateX(30px);
+    display: none;
+
+}
+#tw{
+    transform: translateX(40px);
+    display: none;
+
+}
+
+@media screen and (max-width:1280px) {
+    #rf img{
+        width: 300px;
+        height: 300px;
+        transform: translateX(100px);
+    }
+}
+
+@media screen and (max-width:1280px) {
+    #rf img{
+        width: 300px;
+        height: 300px;
+        transform: translateX(30px);
+    }
+}
+
+
+
+}
+@media screen and (min-width:1000px){
+    body{
+    }
+    #salah{
+        width: 31%;
+    }
+   
+
+    #michael{
+        width: 31%;
+        margin-left: 20px;
+        float: left;
+    }
+
+    .modal{
+        width: 550px;
+    }
+
+}
+
+@media screen and (min-width:916px) {
+    body{
+    }
+    #nav-list{
+        margin-top: -100px;
+    }
+    .logo{
+        margin-top: -100px;
+
+    }
+}
+
+
+@media screen and (min-width:917px) and (min-height:1024px){
+    body{
+    }
+    #nav-list{
+        padding-top: 20px;
+        
+    }
+
+    .logo{
+        padding-top: 20px;
+        font-size: 18px;
+
+    }
+}
+@media screen and (min-height:1200px) {
+    #nav-list{
+        padding-top: 10px;
+        
+    }
+   
+    .logo2{
+        display: none;
+    }
+    .logo{
+        padding-top: 10px;
+
+    }
+}
+
+@media screen and (max-width:1499px) and (min-width:1281px) and (min-height:650px) and (max-height:900px) {
+    #nav-list{
+        margin-top: -110px;
+        
+    }
+    nav{
+        margin-top: 0px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        padding-top: 50px;
+
+    }
+}
+
+@media screen and (max-width:1499px) and (min-width:1281px) and (min-height:750px) and (max-height:850px) {
+    #nav-list{
+        margin-top: -110px;
+        
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        padding-top: 50px;
+
+    }
+}
+@media screen and (max-width:1499px) and (min-width:1281px) and (min-height:850px) and (max-height:950px) {
+    #nav-list{
+        padding-top: 150px;
+
+    }
+    nav{
+        margin-top: -10px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        padding-top: 150px;
+
+    }
+}
+
+
+
+@media screen and (max-width:1499px) and (min-width:1281px) and (min-height:950px) and (max-height:1050px) {
+    #nav-list{
+        padding-top: 150px;
+
+    }
+    nav{
+        margin-top: -15px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        padding-top: 150px;
+
+    }
+}
+@media screen and (max-width:1499px) and (min-width:1281px) and (min-height:1050px) and (max-height:1205px) {
+    #nav-list{
+        padding-top: 150px;
+
+    }
+    nav{
+        margin-top: -20px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        padding-top: 150px;
+
+    }
+}
+
+
+
+
+
+@media screen and (min-width:1281px) and (max-width:1499px){
+
+    body{
+    }
+    .modal{
+        width: 560px;
+        height: 410px;
+        background: radial-gradient(transparent,black);
+    }
+    #nav-list{
+        padding-top: 50px;
+    }
+    nav{
+        padding-top: 50px;
+    }
+    .logo{
+        width: 30%;
+        padding-top: 50px;
+        float: left;
+        transition: all 0.3s;
+
+
+    }
+    .logo:hover{
+        transform: translate(0px);
+        transition: all 0.3s;
+    }
+    main{
+        height: 1550px;
+    }
+    #dc{
+        width: 58%;
+        height: 600px;
+        float: left;
+    }
+    #dc h1{
+        margin-top: 0px;
+        font-size: 35px;
+    }
+    #dc img{
+        height: 450px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #copinha{
+        margin-top: 50px;
+        float: right;
+        height: 290px;
+    }
+    #copinha h4{
+        margin-top: -5px;
+        font-size: 20px;
+    }
+    #copinha img{
+        float: right;
+        height: 230px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #coutinho{
+        margin-top: 15px;
+        float: right;
+        height: 290px;
+        font-size: 20px;
+
+    }
+    #coutinho img{
+        float: right;
+        height: 230px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #lukaku{
+        width: 49%;
+        height: 400px;
+        float: right;
+        font-size: 25px;
+    }
+    #lukaku img{
+        height: 310px;
+        float: right;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #lukaku h4{
+        margin-top: 0;
+    }
+    #cruzeiro{
+        width: 49%;
+        height: 400px;
+        float: left;
+        font-size: 25px;
+
+    }
+    #cruzeiro img{
+        height: 310px;
+        float: right;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #cruzeiro h4{
+        margin-top: 0;
+    }
+    #fla{
+        width: 30%;
+        height: 300px;
+        float: left;
+    }
+    #fla img{
+        height: 230px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #fla h4{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    #futebol-na-tv{
+        width: 30%;
+        height:300px;
+        float: left;
+        margin-left: 45px;
+        
+    }
+    #futebol-na-tv img{
+        height: 230px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #futebol-na-tv h4{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    #salah{
+        width: 31%;
+        height: 300px;
+        float: right;
+        margin-left: 20px;
+    }
+    #salah img{
+        height: 230px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #salah h4{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    hgroup{
+        height: 1450px;
+        margin-top: -50px;
+    }
+    #uniformes{
+        width: 49%;
+        height: 400px;
+        float: left;
+    }
+    #uniformes iframe{
+        width: 100%;
+    }
+    #uniformes h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+    #lodi{
+        width: 49%;
+        height: 400px;
+        margin-top: 50px;
+        float: right;
+        margin-left: 10px;
+    }
+    #lodi iframe{
+        width: 100%;
+    }
+    #lodi h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+      
+    #psg{
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+        float: left;
+    }
+    #psg iframe{
+        width: 100%;
+    }
+    #psg h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #melhor-do-mundo{
+        float: right;
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+    }
+    #melhor-do-mundo iframe{
+        width: 100%;
+    }
+    #melhor-do-mundo h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+    #timao{
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+        float: left;
+    }
+    #timao iframe{
+        width: 100%;
+    }
+    #timao h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #selecao{
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+        float: right;
+    }
+    #selecao iframe{
+        width: 100%;
+    }
+    #selecao h4{
+        float: right;
+        width: 100%;
+        font-size: 26px;
+    }
+    legend{
+        height: 1170px;
+        margin-top: -60px;
+    }
+    #rafael{
+        height: 600px;
+        width: 60%;
+    }
+    #rafael img{
+        height: 500px;
+    }
+    #rafael h4{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #leila{
+        width: 38%;
+        height: 290px;
+    }
+    #leila img{
+        height: 220px;
+    }
+    #leila h4{
+    font-size: 18px;
+    margin-top: -5px;
+    }
+    #gremio{
+        width: 38%;
+        height: 290px;
+        margin-top: 15px;
+
+    }
+    #gremio img{
+        height: 220px;
+    }
+    #gremio h4{
+    font-size: 18px;
+    margin-top: 0px;
+    }
+    #devid{
+        height: 300px;
+        float: right;
+        margin-top: 25px;
+        width: 30.5%;
+
+    }
+    #devid img{
+        height: 220px;
+    }
+    #devid h4{
+        font-size: 18px;
+    }
+
+    #michael{
+        height: 300px;
+        width: 30%;
+        transform: translateX(-20px);
+        float: left;
+    }
+    #michael img{
+        height: 220px;
+    }
+    #michael h4{
+        font-size: 17px;
+    }
+
+
+    #matias-vencino {
+        height: 300px;
+        float: left;
+        width: 31%;
+        margin-left: 0px;
+
+    }
+    #matias-vencino img{
+        height: 230px;
+    }
+    #matias-vencino h4{
+        font-size: 17px;
+    }
+    #mais3{
+        margin-top: 20px;
+        float: right;
+    }
+    summary{
+        height: 1500px;
+    }
+    #blue{
+        width: 49%;
+        height: 400px;
+        float: left;
+    }
+    #blue img{
+        height: 320px;
+    }
+    #blue h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #atalanta{
+        width: 49%;
+        height: 400px;
+        float: right;
+    }
+    #atalanta img{
+        height: 320px;
+    }
+    #atalanta h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #united{
+        width: 49%;
+        height: 410px;
+        float: left;
+    }
+    #united img{
+        height: 320px;
+    }
+    #united h4{
+    font-size: 23px;
+    margin-top: 0px;
+    }
+
+    #real-barca {
+        width: 49%;
+        height: 410px;
+        float: right;
+    }
+    #real-barca  img{
+        height: 320px;
+    }
+    #real-barca  h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #juve{
+        width: 49%;
+        height: 400px;
+        float: left;
+    }
+    #juve img{
+        height: 330px;
+    }
+    #juve h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #espn{
+        width: 49%;
+        height: 400px;
+        float: right;
+    }
+    #espn img{
+        height: 330px;
+    }
+    #espn h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+    #f{
+     transform: translateX(20px);
+     display: none;
+
+    }
+    #rf img{
+        width: 300px;
+        height: 300px;
+        transform: translateX(70px);
+    }
+    #rf h3{
+        display: none;
+    }
+#i{
+    transform: translateX(30px);
+    display: none;
+
+}
+#tw{
+    transform: translateX(40px);
+    display: none;
+
+}
+
+    
+}
+
+
+
+@media screen and (max-width:1920px) and (min-width:1500px) and (min-height:150px) and (max-height:900px) {
+    #nav-list{
+        margin-top: -10px;
+        
+    }
+    nav{
+        margin-top: -50px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        margin-top: 0px;
+
+    }
+}
+
+@media screen and (max-width:1920px) and (min-width:1500px) and (min-height:750px) and (max-height:850px) {
+    #nav-list{
+        margin-top: -20px;
+        
+    }
+
+    nav{
+        margin-top: -50px;
+
+    }
+
+
+    .logo2{
+        display: block;
+    }
+    .logo{
+        margin-top: -10px;
+
+    }
+}
+@media screen and (max-width:1920px) and (min-width:1500px) and (min-height:850px) and (max-height:900px) {
+    #nav-list{
+        padding-top: 40px;
+
+    }
+    nav{
+        margin-top: -50px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        margin-top: -10px;
+
+    }
+}
+
+
+
+@media screen and (max-width:1920px) and (min-width:1500px) and (min-height:901px) and (max-height:1050px) {
+    #nav-list{
+        padding-top: 0px;
+
+    }
+    nav{
+        margin-top: -15px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        padding-top: 0px;
+
+    }
+}
+@media screen and (max-width:1920px) and (min-width:1500px) and (min-height:1050px) and (max-height:1202px) {
+    #nav-list{
+        padding-top: 0px;
+
+    }
+    nav{
+        margin-top: -20px;
+
+    }
+    #logo2{
+        
+    }
+    .logo{
+        padding-top: 0px;
+
+    }
+
+}
+
+@media screen and (min-width:1500px) and (max-width:1920px){
+
+    body{
+    }
+    .modal{
+        width: 560px;
+        height: 410px;
+        background: radial-gradient(transparent,black);
+    }
+    #nav-list{
+        padding-top: 50px;
+    }
+    nav{
+        padding-top: 50px;
+    }
+    .logo{
+        width: 30%;
+        padding-top: 50px;
+        float: left;
+        transition: all 0.3s;
+
+
+    }
+    .logo:hover{
+        transform: translate(0px);
+        transition: all 0.3s;
+    }
+    main{
+        height: 1850px;
+    }
+    #dc{
+        width: 58%;
+        height: 700px;
+        float: left;
+    }
+    #dc h1{
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    #dc img{
+        height: 550px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+     #Noticia h3{
+        font-size: 60px;
+    }
+    #copinha{
+        margin-top: 50px;
+        float: right;
+        height: 340px;
+    }
+    #copinha h4{
+        margin-top: -5px;
+        font-size: 23px;
+    }
+    #copinha img{
+        float: right;
+        height: 270px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #coutinho{
+        margin-top: 15px;
+        float: right;
+        height: 340px;
+        font-size: 23px;
+
+    }
+    #coutinho img{
+        float: right;
+        height: 270px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #lukaku{
+        width: 49%;
+        height: 500px;
+        float: right;
+        font-size: 26px;
+    }
+    #lukaku img{
+        height: 410px;
+        float: right;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #lukaku h4{
+        margin-top: 0;
+    }
+    #cruzeiro{
+        width: 49%;
+        height: 500px;
+        float: left;
+        font-size: 26px;
+
+    }
+    #cruzeiro img{
+        height: 410px;
+        float: right;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #cruzeiro h4{
+        margin-top: 0;
+    }
+    #fla{
+        width: 30%;
+        height: 400px;
+        float: left;
+    }
+    #fla img{
+        height: 320px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #fla h4{
+        margin-top: 0;
+        font-size: 23px;
+    }
+
+    #futebol-na-tv{
+        width: 30%;
+        height:400px;
+        float: left;
+        margin-left: 60px;
+        
+    }
+    #futebol-na-tv img{
+        height: 320px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #futebol-na-tv h4{
+        margin-top: 0;
+        font-size: 23px;
+    }
+
+    #salah{
+        width: 31%;
+        height: 400px;
+        float: right;
+        margin-left: 20px;
+    }
+    #salah img{
+        height: 320px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #salah h4{
+        margin-top: 0;
+        font-size: 23px;
+    }
+    #mais {
+        width: 300px;
+        height: 50px;
+    }
+
+    hgroup{
+        height: 1450px;
+        margin-top: -50px;
+    }
+    #video h3{
+        font-size: 60px;
+    }
+    #uniformes{
+        width: 49%;
+        height: 400px;
+        float: left;
+    }
+    #uniformes iframe{
+        width: 100%;
+    }
+    #uniformes h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+    #lodi{
+        width: 49%;
+        height: 400px;
+        margin-top: 50px;
+        float: right;
+        margin-left: 10px;
+    }
+    #lodi iframe{
+        width: 100%;
+    }
+    #lodi h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+      
+    #psg{
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+        float: left;
+    }
+    #psg iframe{
+        width: 100%;
+    }
+    #psg h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #melhor-do-mundo{
+        float: right;
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+    }
+    #melhor-do-mundo iframe{
+        width: 100%;
+    }
+    #melhor-do-mundo h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+    #timao{
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+        float: left;
+    }
+    #timao iframe{
+        width: 100%;
+    }
+    #timao h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #selecao{
+        width: 49%;
+        height: 400px;
+        margin-top: 10px;
+        float: right;
+    }
+    #selecao iframe{
+        width: 100%;
+    }
+    #selecao h4{
+        float: right;
+        width: 100%;
+        font-size: 26px;
+    }
+
+    #mais2{
+        width: 300px;
+        height: 50px;
+    }
+
+    legend{
+        height: 1390px;
+        margin-top: -60px;
+    }
+    #mercado-da-bola h3{
+        font-size: 60px;
+    }
+
+    #rafael{
+        height: 700px;
+        width: 60%;
+    }
+    #rafael img{
+        height: 600px;
+    }
+    #rafael h4{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #leila{
+        width: 38%;
+        height: 340px;
+    }
+    #leila img{
+        height: 270px;
+    }
+    #leila h4{
+    font-size: 20px;
+    margin-top: -5px;
+    }
+    #gremio{
+        width: 38%;
+        height: 340px;
+        margin-top: 15px;
+
+    }
+    #gremio img{
+        height: 270px;
+    }
+    #gremio h4{
+    font-size: 20px;
+    margin-top: 0px;
+    }
+    #devid{
+        height: 400px;
+        float: right;
+        margin-top: 25px;
+        width: 31%;
+
+    }
+    #devid img{
+        height: 320px;
+    }
+    #devid h4{
+        font-size: 20px;
+    }
+
+    #michael{
+        height: 400px;
+        width: 30.5%;
+        transform: translateX(-20px);
+        float: left;
+    }
+    #michael img{
+        height: 320px;
+    }
+    #michael h4{
+        font-size: 20px;
+    }
+
+
+    #matias-vencino {
+        height: 400px;
+        float: left;
+        width: 31.5%;
+        margin-left: 5px;
+
+    }
+    #matias-vencino img{
+        height: 320px;
+    }
+    #matias-vencino h4{
+        font-size: 20px;
+    }
+    #mais3{
+        margin-top: 20px;
+        float: right;
+        width: 300px;
+        height: 50px;
+    }
+    summary{
+        height: 1500px;
+    }
+    #mais4{
+        width: 300px;
+        height: 50px;
+
+    }
+    #jogo h3{
+        font-size: 60px;
+    }
+    #blue{
+        width: 49%;
+        height: 400px;
+        float: left;
+    }
+    #blue img{
+        height: 320px;
+    }
+    #blue h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #atalanta{
+        width: 49%;
+        height: 400px;
+        float: right;
+    }
+    #atalanta img{
+        height: 320px;
+    }
+    #atalanta h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #united{
+        width: 49%;
+        height: 410px;
+        float: left;
+    }
+    #united img{
+        height: 320px;
+    }
+    #united h4{
+    font-size: 23px;
+    margin-top: 0px;
+    }
+
+    #real-barca {
+        width: 49%;
+        height: 410px;
+        float: right;
+    }
+    #real-barca  img{
+        height: 320px;
+    }
+    #real-barca  h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #juve{
+        width: 49%;
+        height: 400px;
+        float: left;
+    }
+    #juve img{
+        height: 330px;
+    }
+    #juve h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+
+    #espn{
+        width: 49%;
+        height: 400px;
+        float: right;
+    }
+    #espn img{
+        height: 330px;
+    }
+    #espn h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+    #f{
+     transform: translateX(20px);
+     display: none;
+
+    }
+    #rf img{
+        width: 300px;
+        height: 300px;
+        transform: translateX(70px);
+    }
+    #rf h3{
+        display: none;
+    }
+#i{
+    transform: translateX(30px);
+    display: none;
+
+}
+#tw{
+    transform: translateX(40px);
+    display: none;
+
+}
+
+    
+}
+
+
+
+
+@media screen and (max-width:2560px) and (min-width:1921px) and (min-height:150px) and (max-height:900px) {
+    #nav-list{
+        margin-top: -10px;
+        
+    }
+    nav{
+        margin-top: -50px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        margin-top: 0px;
+
+    }
+}
+
+@media screen and (max-width:2560px) and (min-width:1921px) and (min-height:750px) and (max-height:850px) {
+    #nav-list{
+        margin-top: -20px;
+        
+    }
+
+    nav{
+        margin-top: -50px;
+
+    }
+
+
+    .logo2{
+        display: block;
+    }
+    .logo{
+        margin-top: -10px;
+
+    }
+}
+@media screen and (max-width:2560px) and (min-width:1921px) and (min-height:850px) and (max-height:900px) {
+    #nav-list{
+        padding-top: 40px;
+
+    }
+    nav{
+        margin-top: -50px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        margin-top: -10px;
+
+    }
+}
+
+
+
+@media screen and (max-width:2560px) and (min-width:1921px) and (min-height:901px) and (max-height:1050px) {
+    #nav-list{
+        padding-top: 0px;
+
+    }
+    nav{
+        margin-top: 25px;
+
+    }
+    .logo2{
+        display: block;
+    }
+    .logo{
+        padding-top: 0px;
+
+    }
+}
+@media screen and (max-width:2560px) and (min-width:1921px) and (min-height:1050px) and (max-height:1200px){
+    #nav-list{
+        padding-top: 0px;
+
+    }
+    nav{
+        margin-top: 35px;
+        font-size: 25px;
+
+    }
+    #logo2{
+        
+    }
+    .logo{
+        padding-top: 0px;
+        font-size: 25px;
+
+    }
+
+}
+@media screen and (max-width:2560px) and (min-width:1921px) and (min-height:1201px) and (max-height:1700px){
+    #nav-list{
+        padding-top: 0px;
+
+    }
+    nav{
+        margin-top: -35px;
+
+    }
+    #logo2{
+        
+    }
+    .logo{
+        padding-top: 0px;
+
+    }
+
+
+
+
+
+@media screen and (min-width:1921px) and (max-width:2560px){
+
+    body{
+    }
+    .modal{
+        width: 560px;
+        height: 410px;
+        background: radial-gradient(transparent,black);
+    }
+    #nav-list{
+        padding-top: 50px;
+        font-size: 25px;
+    }
+    nav{
+        padding-top: 50px;
+        font-size: 25px;
+
+    }
+    .logo{
+        width: 30%;
+        padding-top: 50px;
+        float: left;
+        transition: all 0.3s;
+        font-size: 25px;
+
+
+    }
+    .logo:hover{
+        transform: translate(0px);
+        transition: all 0.3s;
+    }
+    main{
+        height: 2200px;
+    }
+    #dc{
+        width: 58%;
+        height: 800px;
+        float: left;
+    }
+    #dc h1{
+        margin-top: 0px;
+        font-size: 48px;
+    }
+    #dc img{
+        height: 630px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+     #Noticia h3{
+        font-size: 80px;
+    }
+    #copinha{
+        margin-top: 50px;
+        float: right;
+        height: 390px;
+    }
+    #copinha h4{
+        margin-top: -5px;
+        font-size: 30px;
+    }
+    #copinha img{
+        float: right;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #coutinho{
+        margin-top: 15px;
+        float: right;
+        height: 390px;
+        font-size: 30px;
+
+    }
+    #coutinho img{
+        float: right;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #lukaku{
+        width: 49%;
+        height: 610px;
+        float: right;
+        font-size: 35px;
+    }
+    #lukaku img{
+        height: 500px;
+        float: right;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #lukaku h4{
+        margin-top: 0;
+    }
+    #cruzeiro{
+        width: 49%;
+        height: 610px;
+        float: left;
+        font-size: 35px;
+
+    }
+    #cruzeiro img{
+        height: 500px;
+        float: right;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #cruzeiro h4{
+        margin-top: 0;
+    }
+    #fla{
+        width: 31%;
+        height: 510px;
+        float: left;
+    }
+    #fla img{
+        height: 400px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #fla h4{
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    #futebol-na-tv{
+        width: 31%;
+        height:510px;
+        float: left;
+        margin-left: 60px;
+        
+    }
+    #futebol-na-tv img{
+        height: 400px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #futebol-na-tv h4{
+        margin-top: 0;
+        font-size: 30px;
+    }
+
+    #salah{
+        width: 31%;
+        height: 500px;
+        float: right;
+        margin-left: 20px;
+    }
+    #salah img{
+        height: 400px;
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    #salah h4{
+        margin-top: 0;
+        font-size: 30px;
+    }
+    #mais {
+        width: 400px;
+        height: 50px;
+    }
+
+    hgroup{
+        height: 2100px;
+        margin-top: -50px;
+    }
+    #video h3{
+        font-size: 80px;
+    }
+    #uniformes{
+        width: 49%;
+        height: 600px;
+        float: left;
+    }
+    #uniformes iframe{
+        width: 100%;
+        height: 500px;
+    }
+    #uniformes h4{
+        float: right;
+        width: 100%;
+        font-size: 35px;
+    }
+    #lodi{
+        width: 49%;
+        height: 600px;
+        margin-top: 50px;
+        float: right;
+        margin-left: 10px;
+    }
+    #lodi iframe{
+        width: 100%;
+        height: 500px;
+    }
+    #lodi h4{
+        float: right;
+        width: 100%;
+        font-size: 35px;
+    }
+      
+    #psg{
+        width: 49%;
+        height: 600px;
+        margin-top: 10px;
+        float: left;
+    }
+    #psg iframe{
+        width: 100%;
+        height: 500px;
+    }
+    #psg h4{
+        float: right;
+        width: 100%;
+        font-size: 35px;
+    }
+
+    #melhor-do-mundo{
+        float: right;
+        width: 49%;
+        height: 600px;
+        margin-top: 10px;
+    }
+    #melhor-do-mundo iframe{
+        width: 100%;
+        height: 500px;
+    }
+    #melhor-do-mundo h4{
+        float: right;
+        width: 100%;
+        font-size: 35px;
+    }
+    #timao{
+        width: 49%;
+        height: 600px;
+        margin-top: 10px;
+        float: left;
+    }
+    #timao iframe{
+        width: 100%;
+        height: 500px;
+    }
+    #timao h4{
+        float: right;
+        width: 100%;
+        font-size: 35px;
+    }
+
+    #selecao{
+        width: 49%;
+        height: 600px;
+        margin-top: 10px;
+        float: right;
+    }
+    #selecao iframe{
+        width: 100%;
+        height: 500px;
+    }
+    #selecao h4{
+        float: right;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #mais2{
+        width: 400px;
+        height: 50px;
+    }
+
+    legend{
+        height: 1590px;
+        margin-top: -90px;
+    }
+    #mercado-da-bola h3{
+        font-size: 80px;
+    }
+
+    #rafael{
+        height: 800px;
+        width: 60%;
+    }
+    #rafael img{
+        height: 620px;
+    }
+    #rafael h4{
+        font-size: 49px;
+        margin-top: 10px;
+    }
+    #leila{
+        width: 38%;
+        height: 390px;
+    }
+    #leila img{
+        height: 300px;
+    }
+    #leila h4{
+    font-size: 25px;
+    margin-top: -5px;
+    }
+    #gremio{
+        width: 38%;
+        height: 390px;
+        margin-top: 15px;
+
+    }
+    #gremio img{
+        height: 300px;
+    }
+    #gremio h4{
+    font-size: 25px;
+    margin-top: 0px;
+    }
+    #devid{
+        height: 500px;
+        float: right;
+        margin-top: 25px;
+        width: 31%;
+
+    }
+    #devid img{
+        height: 400px;
+    }
+    #devid h4{
+        font-size: 25px;
+    }
+
+    #michael{
+        height: 500px;
+        width: 30.5%;
+        transform: translateX(-20px);
+        float: left;
+    }
+    #michael img{
+        height: 400px;
+    }
+    #michael h4{
+        font-size: 25px;
+    }
+
+
+    #matias-vencino {
+        height: 500px;
+        float: left;
+        width: 31.5%;
+        margin-left: 20px;
+
+    }
+    #matias-vencino img{
+        height: 400px;
+    }
+    #matias-vencino h4{
+        font-size: 25px;
+    }
+    #mais3{
+        margin-top: 20px;
+        float: right;
+        width: 300px;
+        height: 50px;
+    }
+    summary{
+        height: 2100px;
+        margin-top: -90px;
+    }
+    #mais4{
+        width: 400px;
+        height: 50px;
+
+    }
+    #jogo h3{
+        font-size: 80px;
+    }
+    #blue{
+        width: 49%;
+        height: 600px;
+        float: left;
+    }
+    #blue img{
+        height: 500px;
+    }
+    #blue h4{
+    font-size: 35px;
+    margin-top: 0px;
+    }
+
+    #atalanta{
+        width: 49%;
+        height: 600px;
+        float: right;
+    }
+    #atalanta img{
+        height: 500px;
+    }
+    #atalanta h4{
+    font-size: 35px;
+    margin-top: 0px;
+    }
+
+    #united{
+        width: 49%;
+        height: 610px;
+        float: left;
+    }
+    #united img{
+        height: 500px;
+    }
+    #united h4{
+    font-size: 31px;
+    margin-top: 0px;
+    }
+
+    #real-barca {
+        width: 49%;
+        height: 610px;
+        float: right;
+    }
+    #real-barca  img{
+        height: 500px;
+    }
+    #real-barca  h4{
+    font-size: 35px;
+    margin-top: 0px;
+    }
+
+    #juve{
+        width: 49%;
+        height: 600px;
+        float: left;
+    }
+    #juve img{
+        height: 500px;
+    }
+    #juve h4{
+    font-size: 35px;
+    margin-top: 0px;
+    }
+
+    #espn{
+        width: 49%;
+        height: 600px;
+        float: right;
+    }
+    #espn img{
+        height: 500px;
+    }
+    #espn h4{
+    font-size: 35px;
+    margin-top: 0px;
+    }
+    #f{
+     transform: translateX(20px);
+     display: none;
+
+    }
+    #rf img{
+        width: 300px;
+        height: 300px;
+        transform: translateX(170px);
+    }
+    #rf h3{
+        display: none;
+    }
+#i{
+    transform: translateX(30px);
+    display: none;
+
+}
+#tw{
+    transform: translateX(40px);
+    display: none;
+
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+}
